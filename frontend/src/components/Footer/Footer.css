@@ -1,0 +1,263 @@
+.footer {
+  background-color: rgb(26, 26, 26);
+  padding: 3vmax;
+  /* display: grid;0 */
+  /* grid-template-columns:  auto auto auto ; */
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+.footerC1 {
+  flex-grow:1;
+  flex-basis:200;
+  width:40vw;
+}
+
+.footerC3 {
+  flex-grow:1;
+  flex-basis:100;
+}
+.footer > div > h5 {
+  color: white;
+  border-bottom: 1px solid white;   
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+.footerC1  > p {
+ color:white;
+ width: 100%;
+
+}
+
+.footer > div > h6 {
+  color: white;
+  padding: 10px 0;
+}
+
+.footer > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer > div > a {
+  font-size: 3vmax;
+  color: white;
+  transition: all 0.3s;
+}
+.footer > div > a:nth-child(2):hover {
+  color: rgb(64, 88, 226);
+}
+.footer > div > a:nth-child(3):hover {
+  color: rgb(241, 59, 59);
+}
+.footer > div > a:nth-child(4):hover {
+  color: rgb(119, 61, 212);
+}
+.footer > div > a:nth-child(5):hover {
+  color: rgb(64, 88, 226);
+}
+
+.footerContactBtn {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  width: 120px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 2vmax 0;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+
+.footerContactBtn > p {
+  color: black;
+}
+
+.footerContactBtn:hover {
+  background-color: unset;
+}
+.footerContactBtn:hover p {
+  color: rgb(255, 255, 255);
+}
+
+/*  */
+
+.button2 {
+  position: relative;
+  /* display: inline-block; */
+  padding: auto;
+  border-radius: 4px;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 25px;
+  font-family: "Roboto", sans-serif;
+  filter: hue-rotate(0deg);
+  border: 2px solid #d2bdff;
+  transition: all 0.1s linear;
+  width: 55px;
+  margin: auto;
+  margin-top: 15px;
+}
+.button2:hover {
+  border: 1px solid transparent;
+}
+.button2:hover span {
+  position: absolute;
+  display: block;
+}
+.button2:hover span:nth-child(1) {
+  filter: hue-rotate(0deg);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #3a86ff);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+  .button2:hover span:nth-child(2) {
+    filter: hue-rotate(60deg);
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #3a86ff);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.button2:hover span:nth-child(3) {
+  filter: hue-rotate(120deg);
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: linear-gradient(270deg, transparent, #3a86ff);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+    height: 3px;
+  }
+  50%,
+  100% {
+    height: 2px;
+    right: 100%;
+  }
+}
+.button2:hover span:nth-child(4) {
+  filter: hue-rotate(300deg);
+  bottom: -100%;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #3a86ff);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.button2 a {
+  text-decoration: none;
+  color: #03E9F1;
+  font-size: 18px;
+  font-weight: 00;
+}
+
+/*  */
+
+
+.button2 {
+  align-items: center;
+}
+
+.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  font-size: 53px;
+}
+
+.footerC3 > div > h6{
+   color: white;
+  border-bottom: 1px solid white;
+  width: 80px;
+  margin-bottom: 20px;
+  padding: 8px 5px;
+}
+.css-2ulfj5-MuiTypography-root{
+
+  font-size: 1.42rem;
+
+}
+  
+
+
+.footer > div > h6 {
+color: white;
+border-bottom: 1px solid white;
+margin-bottom: 26px;
+padding: 10px 0;
+font-size: 25px;
+margin-top: -7px;
+width: 100px;
+}
+
+.footer > div > h6 {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 26px;
+  padding: 10px 0;
+  font-size: 25px;
+  margin-top: -7px;
+  text-align: center;
+}
+
+
+
+  .DirectlySet {
+
+    padding-left: 10vw ;
+    padding-bottom: 5px ;
+
+}
+
+a.footerContactBtn.button2 {
+  width: 70%;
+  margin-left:0%;
+  margin-top:5%
+}
+
+
+.DirectlySet > h6{
+  font-size: 1.40rem;
+
+}
